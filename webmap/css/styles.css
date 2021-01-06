@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#menu {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 25px 25px 520px;
+}
+
+#toRoute{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    margin: 10px 25px 25px 520px;
+    right:0;
+}
+
+.distance-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+     
+.distance-container > * {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+}

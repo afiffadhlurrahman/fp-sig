@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Map Web</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="css/styles.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="img/pnk.jpg" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="map"></div>
+    <div id="distance" class="distance-container"></div>
+ 
+    <script src="https://npmcdn.com/@turf/turf@5.1.6/turf.min.js"></script>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons" id="toRoute">
+		<a href="index.html" class="btn btn-dark"> Search </a>
+		<a href="route.html"class="btn btn-dark"> Route </a>
+        <a href="#" class="btn btn-primary active" checked> Distance </a>
+    </div>
+    <script src="distance.js"></script>
+ 
+</body>
+</html>
